@@ -3,13 +3,13 @@
 </h1>
 
 <p align="center">
-    <img alt="Microfrontend" src="./public/mf.png" width="40%"/>
+    <img alt="Microfrontend" src="public/mf.png" width="40%"/>
 </p>
 
 <br/>
 
 <p align="center">
-  <a href="http://staging.smandes.gov.ar/gitea/Pruebas/vite-mf-react-ts/wiki">Lea más acerca de su implementación</a>
+  <a href="https://github.com/pmNiko/Microfront-Concept-Root/wiki">Lea más acerca de su implementación</a>
 </p>
 
 <br/>
