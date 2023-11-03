@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-    <img alt="Microfrontend" src="public/mf.png" width="40%"/>
+    <img alt="Microfrontend" src="./public/mf.png" width="40%"/>
 
 </p>
 
