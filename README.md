@@ -7,6 +7,10 @@
 
 </p>
 
+<p align="center" style="margin-top: 3rem">
+    <img alt="App" src="public/mf.png" width="400px"/>
+</p>
+
 <br/>
 
 <p align="center">
