@@ -18,9 +18,6 @@ export const NavBar = () => {
               color="inherit"
               aria-label="menu"
               sx={{ ml: 1 }}
-              // onClick={() =>
-              //   (window.location.href = "http://localhost:5173/inicio")
-              // }
             >
               <img
                 src="https://app.sma.gob.ar/inicio/static/media/sma.a0813f434e165adba2c0.png"
