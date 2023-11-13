@@ -1,14 +1,15 @@
-import reactLogo from "./assets/react.svg";
-import tsLogo from "./assets/typescript.svg";
-// import viteLogo from "./assets/vite.svg";
+import reactLogo from "/react.svg";
+import tsLogo from "/typescript.svg";
+import viteLogo from "/vite.svg";
+import "./Title.css";
 
-const Title = () => {
+export default () => {
   return (
     <>
       <div>
-        {/* <a href="https://vitejs.dev" target="_blank">
+        <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a> */}
+        </a>
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
@@ -20,5 +21,3 @@ const Title = () => {
     </>
   );
 };
-
-export default Title;
