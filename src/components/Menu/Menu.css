@@ -1,0 +1,16 @@
+.MuiBox-root.headerMenu {
+  background-color: #2ea3f2;
+  color: white;
+}
+
+.custom-nav-link {
+  color: black;
+}
+
+.custom-nav-link.active {
+  color: rgb(44, 163, 242);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
