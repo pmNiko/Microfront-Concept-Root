@@ -16,6 +16,7 @@ const Ingresar = lazy(() => import("../pages/ddjj/Ingresar"));
 const Autoridades = lazy(() => import("../pages/institucional/Autoridades"));
 const Sueldos = lazy(() => import("../pages/institucional/Sueldos"));
 const Expedientes = lazy(() => import("../pages/institucional/Expedientes"));
+const ParcelTest = lazy(() => import("mfConceptRemoteAppTest/ParcelTest"));
 
 export const router = createBrowserRouter([
   {
@@ -31,6 +32,14 @@ export const router = createBrowserRouter([
             errorElement: <SupportLayout />,
             element: <HomePage />,
             loader: loaderMenu,
+          },
+          {
+            path: "remote-parcel",
+            element: (
+              <Suspense fallback={<CircularProgress />}>
+                <ParcelTest />
+              </Suspense>
+            ),
           },
           {
             path: "rentas/",

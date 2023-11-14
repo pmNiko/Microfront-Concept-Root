@@ -9,7 +9,8 @@ export default defineConfig({
     federation({
       name: "Microfrontend-concept-root",
       remotes: {
-        mfConceptRemoteAppTest: "http://localhost:5001/assets/remoteEntry.js",
+        mfConceptRemoteAppTest:
+          "http://staging.smandes.gov.ar/parcelTest/assets/remoteEntry.js",
       },
       shared: ["react", "react-dom"],
     }),

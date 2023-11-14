@@ -1,8 +1,8 @@
 import { lazy } from "react";
 import withErrorBoundary from "./withErrorBundaries";
 
-const TestRemote = lazy(() => import("mfConceptRemoteAppTest/Todos"));
+const ParcelTest = lazy(() => import("mfConceptRemoteAppTest/ParcelTest"));
 
-const Test = () => withErrorBoundary(TestRemote);
+const Test = () => withErrorBoundary(ParcelTest);
 
 export default Test;
