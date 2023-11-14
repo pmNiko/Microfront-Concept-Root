@@ -1,5 +1,3 @@
-import { Menu } from "../components/Menu/CustomMenu";
-
 export const loaderMenu = async () => {
   const data = await fetch(
     "http://10.1.0.51:8080/WSSysGetDataREST/sysgetdata",
@@ -10,7 +8,7 @@ export const loaderMenu = async () => {
     }
   ).then((res) => res.json());
 
-  const json = data.datos as Menu[];
+  const json = data.datos as any[];
 
   return {
     modulesJSON: json.filter((item) => item.isModule),
